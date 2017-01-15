@@ -3,5 +3,8 @@
  */
 
 class VendingMachine {
+    private paid = 0;
+    acceptCoin(coin: Quarter): void {
 
+    }
 }
