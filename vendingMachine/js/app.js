@@ -1,7 +1,25 @@
 /**
  * Created by chewy on 1/14/17.
  */
+var VendingMachine = (function () {
+    function VendingMachine() {
+        var _this = this;
+        this.paid = 0;
+        this.acceptCoin = function (coin) {
+            _this.paid += coin.Value;
+            var element = document.getElementById("total");
+            element.innerHTML = _this.paid.toString();
+        };
+    }
+    return VendingMachine;
+}());
+/**
+ * Created by chewy on 1/14/17.
+ */
+/// <reference path="vendingMachine.ts" />
+/// <reference path="typings/knockout.d.ts" />
 var machine = new VendingMachine();
+ko.applyBindings(machine); //binding to knockout.js
 /**
  * Created by chewy on 1/14/17.
  */
@@ -22,17 +40,4 @@ var Quarter = (function () {
     return Quarter;
 }());
 var coin = new Quarter();
-/**
- * Created by chewy on 1/14/17.
- */
-var VendingMachine = (function () {
-    function VendingMachine() {
-        var _this = this;
-        this.paid = 0;
-        this.acceptCoin = function (coin) {
-            _this.paid += coin.Value;
-        };
-    }
-    return VendingMachine;
-}());
 //# sourceMappingURL=app.js.map
