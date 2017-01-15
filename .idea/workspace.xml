@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5482d786-0395-47b3-9926-1fff0de8ce3d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendingMachine/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/js/app.js" afterPath="$PROJECT_DIR$/vendingMachine/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/js/app.js.map" afterPath="$PROJECT_DIR$/vendingMachine/js/app.js.map" />
@@ -23,14 +24,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vendingMachine.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vendingMachine.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc;n#VendingMachine#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendingMachine/css/site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,6 +54,7 @@
         <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -58,6 +70,7 @@
         <option value="$PROJECT_DIR$/vendingMachine/index.html" />
         <option value="$PROJECT_DIR$/vendingMachine/ts/coin.ts" />
         <option value="$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts" />
+        <option value="$PROJECT_DIR$/vendingMachine/css/site.css" />
       </list>
     </option>
   </component>
@@ -68,8 +81,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="767" />
-    <option name="y" value="232" />
+    <option name="x" value="659" />
+    <option name="y" value="120" />
     <option name="width" value="891" />
     <option name="height" value="612" />
   </component>
@@ -129,7 +142,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ts" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -147,6 +160,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -223,15 +237,15 @@
       <option name="presentableId" value="Default" />
       <updated>1484424772548</updated>
       <workItem from="1484424774847" duration="5018000" />
-      <workItem from="1484515129304" duration="442000" />
+      <workItem from="1484515129304" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5460000" />
+    <option name="totallyTimeSpent" value="5775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="767" y="232" width="891" height="612" extended-state="0" />
+    <frame x="659" y="120" width="891" height="612" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -333,11 +347,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc;n#VendingMachine#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendingMachine/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

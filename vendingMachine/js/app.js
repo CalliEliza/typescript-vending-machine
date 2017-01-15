@@ -27,10 +27,12 @@ var coin = new Quarter();
  */
 var VendingMachine = (function () {
     function VendingMachine() {
+        var _this = this;
         this.paid = 0;
+        this.acceptCoin = function (coin) {
+            _this.paid += coin.Value;
+        };
     }
-    VendingMachine.prototype.acceptCoin = function (coin) {
-    };
     return VendingMachine;
 }());
 //# sourceMappingURL=app.js.map
