@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5482d786-0395-47b3-9926-1fff0de8ce3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendingMachine/ts/productCategory.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendingMachine/ts/product.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/index.html" afterPath="$PROJECT_DIR$/vendingMachine/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/js/app.js" afterPath="$PROJECT_DIR$/vendingMachine/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/js/app.js.map" afterPath="$PROJECT_DIR$/vendingMachine/js/app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts" afterPath="$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/ts/productCategory.ts" afterPath="$PROJECT_DIR$/vendingMachine/ts/productCategory.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,12 +36,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productCategory.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="productCategory.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendingMachine/ts/productCategory.ts">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc;n#SodaCategory#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendingMachine/ts/product.ts">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
+              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+              <folding>
+                <element signature="n#!!doc;n#CocaCola#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,6 +116,7 @@
         <option value="$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts" />
         <option value="$PROJECT_DIR$/vendingMachine/index.html" />
         <option value="$PROJECT_DIR$/vendingMachine/ts/productCategory.ts" />
+        <option value="$PROJECT_DIR$/vendingMachine/ts/product.ts" />
       </list>
     </option>
   </component>
@@ -113,8 +127,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="750" />
-    <option name="y" value="177" />
+    <option name="x" value="751" />
+    <option name="y" value="229" />
     <option name="width" value="809" />
     <option name="height" value="552" />
   </component>
@@ -289,15 +303,15 @@
       <workItem from="1484424774847" duration="5018000" />
       <workItem from="1484515129304" duration="3984000" />
       <workItem from="1484602256283" duration="753000" />
-      <workItem from="1484688167143" duration="383000" />
+      <workItem from="1484688167143" duration="561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10138000" />
+    <option name="totallyTimeSpent" value="10316000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="750" y="177" width="809" height="552" extended-state="0" />
+    <frame x="751" y="229" width="809" height="552" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,9 +537,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendingMachine/ts/productCategory.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc;n#SodaCategory#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendingMachine/ts/product.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc;n#CocaCola#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

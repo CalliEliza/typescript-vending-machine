@@ -44,4 +44,25 @@ ko.applyBindings(machine); //binding to knockout.js
 /**
  * Created by chewy on 1/17/17.
  */
+var SodaCategory = (function () {
+    function SodaCategory() {
+        this.name = "Soda";
+    }
+    SodaCategory.prototype.getImageUrl = function () {
+        return "img/SodaCan.png";
+    };
+    return SodaCategory;
+}());
+/**
+ * Created by chewy on 1/17/17.
+ */
+/// <reference path ="productCategory.ts" />
+var CocaCola = (function () {
+    function CocaCola() {
+        this.name = "Coca-Cola";
+        this.price = 2.30;
+        this.category = new SodaCategory();
+    }
+    return CocaCola;
+}());
 //# sourceMappingURL=app.js.map
