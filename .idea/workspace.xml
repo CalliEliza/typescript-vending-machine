@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5482d786-0395-47b3-9926-1fff0de8ce3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/index.html" afterPath="$PROJECT_DIR$/vendingMachine/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/js/app.js" afterPath="$PROJECT_DIR$/vendingMachine/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/js/app.js.map" afterPath="$PROJECT_DIR$/vendingMachine/js/app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/ts/bootstraper.ts" afterPath="$PROJECT_DIR$/vendingMachine/ts/bootstraper.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/ts/productFactory.ts" afterPath="$PROJECT_DIR$/vendingMachine/ts/productFactory.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts" afterPath="$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,8 +62,8 @@
       <file leaf-file-name="vendingMachine.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -77,8 +74,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendingMachine/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="195">
+              <caret line="46" column="15" lean-forward="false" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -122,8 +119,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="729" />
-    <option name="y" value="118" />
+    <option name="x" value="787" />
+    <option name="y" value="93" />
     <option name="width" value="796" />
     <option name="height" value="385" />
   </component>
@@ -300,15 +297,15 @@
       <workItem from="1484602256283" duration="753000" />
       <workItem from="1484688167143" duration="1735000" />
       <workItem from="1485548716311" duration="683000" />
-      <workItem from="1485566523601" duration="492000" />
+      <workItem from="1485566523601" duration="2643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12665000" />
+    <option name="totallyTimeSpent" value="14816000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="118" width="796" height="385" extended-state="0" />
+    <frame x="787" y="93" width="796" height="385" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -570,6 +567,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendingMachine/ts/productFactory.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendingMachine/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="46" column="15" lean-forward="false" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendingMachine/ts/productCategory.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -590,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendingMachine/ts/productFactory.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendingMachine/ts/bootstraper.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -607,18 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendingMachine/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendingMachine/ts/vendingMachine.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
