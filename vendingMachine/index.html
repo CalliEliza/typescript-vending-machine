@@ -12,7 +12,7 @@
     <h1>Vending Machine Simulation</h1>
     <div class="col-md-8 machine" data-bind="foreach: cells">
         <div class="col-md-4 cell" data-bind="click: $parent.select,
-            css: {selected: $parent.selectedCell().product == $data.product,
+            css: {selected: $parent.selectedCell().product === $data.product,
             sold: sold}">
 
             <div class="col-md-6 image">

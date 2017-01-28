@@ -36,3 +36,10 @@ class CandyBarCategory extends ProductCategory {
         return this.imgPath+"CandyBar.png";
     }
 }
+
+class NutsCategory extends ProductCategory {
+    name = "Nuts";
+    getImageUrl () {
+        return this.imgPath + "Nuts.png";
+    }
+}

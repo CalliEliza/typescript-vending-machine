@@ -6,52 +6,61 @@ var __extends = (this && this.__extends) || function (d, b) {
 /**
  * Created by chewy on 1/14/17.
  */
-var Coin = (function () {
-    function Coin(value) {
-        this.value = value;
-    }
-    return Coin;
-}());
-var Quarter = (function (_super) {
-    __extends(Quarter, _super);
-    function Quarter() {
-        _super.call(this, .25);
-    }
-    Quarter.prototype.getImageUrl = function () {
-        return "img/Quarter.png";
-    };
-    return Quarter;
-}(Coin));
-var Dime = (function (_super) {
-    __extends(Dime, _super);
-    function Dime() {
-        _super.call(this, .10);
-    }
-    Dime.prototype.getImageUrl = function () {
-        return "img/Dime.png";
-    };
-    return Dime;
-}(Coin));
-var Half = (function (_super) {
-    __extends(Half, _super);
-    function Half() {
-        _super.call(this, .50);
-    }
-    Half.prototype.getImageUrl = function () {
-        return "img/Half.png";
-    };
-    return Half;
-}(Coin));
-var Dollar = (function (_super) {
-    __extends(Dollar, _super);
-    function Dollar() {
-        _super.call(this, 1);
-    }
-    Dollar.prototype.getImageUrl = function () {
-        return "img/Dollar.jpg";
-    };
-    return Dollar;
-}(Coin));
+var Coins;
+(function (Coins) {
+    var imagePath = "img/";
+    var Coin = (function () {
+        function Coin(value) {
+            this.value = value;
+        }
+        return Coin;
+    }());
+    Coins.Coin = Coin;
+    var Quarter = (function (_super) {
+        __extends(Quarter, _super);
+        function Quarter() {
+            _super.call(this, .25);
+        }
+        Quarter.prototype.getImageUrl = function () {
+            return imagePath + "Quarter.png";
+        };
+        return Quarter;
+    }(Coin));
+    Coins.Quarter = Quarter;
+    var Dime = (function (_super) {
+        __extends(Dime, _super);
+        function Dime() {
+            _super.call(this, .10);
+        }
+        Dime.prototype.getImageUrl = function () {
+            return imagePath + "Dime.png";
+        };
+        return Dime;
+    }(Coin));
+    Coins.Dime = Dime;
+    var Half = (function (_super) {
+        __extends(Half, _super);
+        function Half() {
+            _super.call(this, .50);
+        }
+        Half.prototype.getImageUrl = function () {
+            return imagePath + "Half.png";
+        };
+        return Half;
+    }(Coin));
+    Coins.Half = Half;
+    var Dollar = (function (_super) {
+        __extends(Dollar, _super);
+        function Dollar() {
+            _super.call(this, 1);
+        }
+        Dollar.prototype.getImageUrl = function () {
+            return imagePath + "Dollar.jpg";
+        };
+        return Dollar;
+    }(Coin));
+    Coins.Dollar = Dollar;
+})(Coins || (Coins = {}));
 /**
  * Created by chewy on 1/17/17.
  */
@@ -105,6 +114,17 @@ var CandyBarCategory = (function (_super) {
     };
     return CandyBarCategory;
 }(ProductCategory));
+var NutsCategory = (function (_super) {
+    __extends(NutsCategory, _super);
+    function NutsCategory() {
+        _super.apply(this, arguments);
+        this.name = "Nuts";
+    }
+    NutsCategory.prototype.getImageUrl = function () {
+        return this.imgPath + "Nuts.png";
+    };
+    return NutsCategory;
+}(ProductCategory));
 /**
  * Created by chewy on 1/17/17.
  */
@@ -148,6 +168,61 @@ var Gummies = (function () {
     }
     return Gummies;
 }());
+var Fanta = (function () {
+    function Fanta() {
+        this.name = "Fanta";
+        this.price = 2.00;
+        this.category = new SodaCategory();
+    }
+    return Fanta;
+}());
+var Sprite = (function () {
+    function Sprite() {
+        this.name = "Sprite";
+        this.price = 1.80;
+        this.category = new SodaCategory();
+    }
+    return Sprite;
+}());
+var Peanuts = (function () {
+    function Peanuts() {
+        this.name = "Peanuts";
+        this.price = 1.50;
+        this.category = new NutsCategory();
+    }
+    return Peanuts;
+}());
+var Plain = (function () {
+    function Plain() {
+        this.name = "Plain";
+        this.price = 1.00;
+        this.category = new ChipsCategory();
+    }
+    return Plain;
+}());
+var Cheddar = (function () {
+    function Cheddar() {
+        this.name = "Cheddar";
+        this.price = 1.00;
+        this.category = new ChipsCategory();
+    }
+    return Cheddar;
+}());
+var Cashews = (function () {
+    function Cashews() {
+        this.name = "Cashews";
+        this.price = 1.00;
+        this.category = new NutsCategory();
+    }
+    return Cashews;
+}());
+var Mints = (function () {
+    function Mints() {
+        this.name = "Mints";
+        this.price = .75;
+    }
+    return Mints;
+}());
 /**
  * Created by chewy on 1/17/17.
  */
@@ -156,7 +231,20 @@ var productFactory = (function () {
     function productFactory() {
     }
     productFactory.GetProduct = function () {
-        return new CocaCola();
+        var random = Math.floor(Math.random() * 11);
+        switch (random) {
+            case 0: return new CocaCola();
+            case 1: return new Fanta();
+            case 2: return new Sprite();
+            case 3: return new Peanuts();
+            case 4: return new Cashews();
+            case 5: return new Plain();
+            case 6: return new Cheddar();
+            case 7: return new Mints();
+            case 8: return new Gummies();
+            case 9: return new Hersey();
+            case 10: return new MilkWay();
+        }
     };
     return productFactory;
 }());
@@ -185,9 +273,9 @@ var VendingMachine = (function () {
     function VendingMachine() {
         var _this = this;
         this.paid = ko.observable(0);
-        this.selectedCell = ko.observable(new Cell(new CocaCola()));
+        this.selectedCell = ko.observable(new Cell(new Initial()));
         this.cells = ko.observableArray([]);
-        this.acceptedCoins = [new Dollar(), new Half(), new Dime(), new Quarter()];
+        this.acceptedCoins = [new Coins.Dollar(), new Coins.Half(), new Coins.Dime(), new Coins.Quarter()];
         this.canPay = ko.pureComputed(function () { return _this.paid() -
             _this.selectedCell().product.price >= 0; });
         this.select = function (cell) {
@@ -196,7 +284,7 @@ var VendingMachine = (function () {
         };
         this.acceptCoin = function (coin) {
             var oldTotal = _this.paid();
-            _this.paid(oldTotal + coin.Value);
+            _this.paid(oldTotal + coin.value);
         };
         this.pay = function () {
             if (_this.selectedCell().stock() < 1) {
