@@ -253,6 +253,7 @@ var productFactory = (function () {
  */
 /// <reference path ="./coin.ts" />
 /// <reference path ="typings/knockout.d.ts" />
+/// <reference path ="typings/require.d.ts" />
 /// <reference path ="./product.ts" />
 /// <reference path="productFactory.ts" />
 var VendingMachineSize;
